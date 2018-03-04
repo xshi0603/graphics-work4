@@ -13,6 +13,6 @@ transform = make_translate(1,2,3)
 print_matrix(transform)
 '''
 
-parse_file( 'gallery_script', edges, transform, screen, color )
+parse_file( 'script', edges, transform, screen, color )
 
 #print_matrix(edges)
