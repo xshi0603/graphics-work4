@@ -101,7 +101,8 @@ def parse_file( fname, points, transform, screen, color ):
             currA = lines[counter]
             currA = currA.strip()
             draw_lines(points, screen, color)
-            save_ppm(screen, currA)
+            ppm_name = 'pic.ppm'
+            save_ppm( screen, ppm_name )
         elif currC == "quit": #DONE
             return
         else: #DONE
